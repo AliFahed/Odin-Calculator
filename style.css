@@ -27,7 +27,7 @@ body {
   align-content: center;
   justify-content: center;
   grid-template-columns: repeat(4, 100px);
-  grid-template-rows: minmax(100px, auto) repeat(5, 80px);
+  grid-template-rows: minmax(100px, auto) repeat(5, 70px);
   min-height: 70vh;
   gap: 5px;
 } 
@@ -37,8 +37,8 @@ body {
   align-content: center;
   justify-content: center;
   grid-template-columns: repeat(4, 100px);
-  grid-template-rows: minmax(85px, auto) repeat(5, 80px);
-  min-height: 69vh;
+  grid-template-rows: minmax(75px, auto) repeat(5, 78px);
+  min-height: 67vh;
   gap: 5px;
 
   grid-column: 1 / -1;
@@ -66,6 +66,7 @@ body {
   flex-direction: column;
   padding: 14px;
   margin-bottom: 6px;
+  border-radius: 8px;
   /* word-wrap: break-word;
   word-break: break-all; */
 }
@@ -96,4 +97,22 @@ body {
 
 button:hover {
   background: rgba(231, 194, 194, .6);
+}
+
+/* footer */
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+  font-size: 1.4rem;
+}
+
+.footer-section > a {
+  color: blue;
+  margin-left: 5px;
+}
+
+.footer-section > a:hover {
+  color: purple;
 }
