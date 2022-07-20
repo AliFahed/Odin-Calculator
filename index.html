@@ -5,8 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <main>
+      <div class="header">
+        <h1>Calculator</h1>
+      </div>
+      <div class="calculator">
+        <div class="display">
+          <div data-previous-calculation class="previous-calculation">123</div>
+          <div data-current-calculation class="current-calculation">456</div>
+        </div>
+        <div class="top-buttons">
+          <button data-ac class="size-two ac-btn">AC</button>
+          <button data- clear class="size-two clear-btn">Clear</button>
+        </div>
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-operator class="operator">÷</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-operator class="operator">x</button>
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-operator class="operator">-</button>
+        <button data-number>0</button>
+        <button data-number>.</button>
+        <button data-equals class="equals">=</button>
+        <button data-operator class="operator">+</button>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
